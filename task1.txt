@@ -1,0 +1,18 @@
+1. 
+driver.findElement(By.CssSelector(#geo_news_block  div.l-col:nth-child(2) div.news-section > div.small:nth-child(2));
+driver.findElement(By.XPATH, //div[@id='geo_news_block']//div[@class='l-col'][2]//div[@class='news-section']/div[2]);
+
+
+2. 
+driver.findElement(By.CssSelector(.large-10 tr:nth-child(6) td:nth-child(5));
+driver.findElement(By.XPATH, //div[@class='large-10 columns']/table//tr[6]/td[5]);
+
+
+3. 
+a) 
+driver.findElement(By.id("#sibling-36\.1"));
+driver.findElement(By.XPATH, //div[@id="sibling-36.3"]);
+
+b) 
+driver.findElement(By.id(#large-table .row-35 .column-32);
+driver.findElement(By.XPATH, //table[@id="large-table"]//tr[35]/td[32]);
