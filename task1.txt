@@ -1,0 +1,18 @@
+1.  https://www.tut.by/
+CSS: #geo_news_block  .l-col:nth-child(2) .news-section > .small:nth-child(2) a
+XPATH: //div[@id='geo_news_block']//div[@class='l-col'][2]//div[@class='news-section']/div[2]/a
+
+
+2. https://the-internet.herokuapp.com/challenging_dom
+CSS: .large-10 tr:nth-child(6) td:nth-child(5)
+XPATH: //div[@class='large-10 columns']//tr[6]/td[5]
+
+
+3. https://the-internet.herokuapp.com/large
+a) 
+CSS: #sibling-36\.1"
+XPATH: //div[@id="sibling-36.3"]
+
+b) 
+CSS: #large-table .row-35 .column-32
+XPATH: //table[@id="large-table"]//tr[35]/td[32]
